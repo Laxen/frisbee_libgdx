@@ -16,7 +16,6 @@ public class Game extends com.badlogic.gdx.Game {
         Gdx.input.setInputProcessor(new InputProcessor());
 
 		batch = new SpriteBatch();
-//        setScreen(new PlayScreen(this));
         mainMenuScreen = new MainMenuScreen(this);
         setScreen(mainMenuScreen);
 	}
